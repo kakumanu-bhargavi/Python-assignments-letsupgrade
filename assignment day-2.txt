@@ -1,0 +1,101 @@
+ASSIGNMENT DAY-2 
+
+AGENDA
+
+Basic python syntax:
+-backslash
+-tiple quotes
+-string inside the quotes
+-escape sequence of string
+-formatted output
+
+Python variables:
+-variable means linking of the data to a name.
+-according to the data type, the interpreter reserves the memory space.
+-variable refers to the memory location that contains the data.
+
+Rules to define a variable:
+-a keyword cannot be used as a variable "if","def", and "for", are the reserved keywords.
+-a variable can contain letters,numbers,underscore.
+-python is a case sensitive.
+-a variable is assigned to data by using the assignment operator.
+
+Types of operators:
+
+1.Arithematic operators:
+* : used to perform multiplication of operands of integer, floating-point and decimal type. It returns     a multiplicative product of the two operands.
+/ : used to divide operands of integer, floating-point and decimal type. It returns the quotient of        its operands.
+% : used to compute the remainder of the division between two operands, which can beof integer, float,     double or decimal type.
++ : used with different types of operands, resulting in different type of results. In case of numeric     and enumeration types, the predefined addition operator calculates the sum of two operands, while     the use of string type operand results in a concatenated string. It can also be used to combine     delegates of a similar type.
+- : used with all numeric types like integer, float, decimal and enumeration to calculate the     difference between its operands. It can also be used to remove delegates of a similar type.
+
+2.Comparision operators:
+-Operate on one type of variable and return a value of bool type.
+-Cannot be used directly for comparison of objects of user-defined type. If used to compare objects, a  comparison operator only compares object references and not the data they contain.
+-Can be overloaded in user-defined types by defining static member functions and using the keyword  operator.
+-Must be overloaded in pairs. If == is overloaded, != must be overloaded. The same rule applies to  pairs < and > and <= and >=.
+-Overloading the comparison operators < and > implicitly overloads their corresponding assignment  operators (if any).
+-If == and != are overloaded for a given type, the methods Equals() and GetHashCode() should be  overridden.
+-Cannot be used with structs until the operator is overloaded to implement the logic for comparison.
+
+3.Assignment operators:
+=  : a=b,b is assigned to a
++= : a+=b is equal to a=a+b
+-= : a-=b is equal to a=a-b
+*= : a*=b is equal to a=a*b
+/= : a/=b is equal to a=a/b
+**=: a**=b is equal to a=a**b
+
+4.Bitwise operators:
+& : Bitwise AND	
+| : Bitwise OR	
+~ : Bitwise NOT	
+^ : Bitwise XOR	
+>> : Bitwise right shift	
+<< : Bitwise left shift	
+
+5.Logical operators:
+and : If both the operands are true then condition becomes true.	
+or : If any of the two operands are non-zero then condition becomes true.	
+not : Used to reverse the logical state of its operand.	
+
+6.Membership operators:
+in : Evaluates to true if it finds a variable in the specified sequence and false otherwise.	
+not in : Evaluates to true if it does not finds a variable in the specified sequence and false otherwise.
+
+7.Identity operators:
+is : Evaluates to true if the variables on either side of the operator point to the same object and         false otherwise.	
+is not : Evaluates to false if the variables on either side of the operator point to the same object          and true otherwise.
+
+Python Operators Precedence:
+The following table lists all operators from highest precedence to lowest.
+
+1.** : Exponentiation (raise to the power)
+
+2.~ + - : Complement, unary plus and minus (method names for the last two are +@ and -@)
+
+3.* / % // : Multiply, divide, modulo and floor division
+
+4.+ - : Addition and subtraction
+
+5.>> << : Right and left bitwise shift
+
+6.& : Bitwise 'AND'
+
+7.^ | : Bitwise exclusive `OR' and regular `OR'
+
+8.<= < > >= : Comparison operators
+
+9.<> == != : Equality operators
+
+10.= %= /= //= -= += *= **= : Assignment operators
+
+11.is is not : Identity operators
+
+12.in not in : Membership operators
+
+Important points:
+1.Operators in the same box have the same precedence.
+2.Operators in the same box group left to right.
+3.exponentiation, which groups from right to left.
+
