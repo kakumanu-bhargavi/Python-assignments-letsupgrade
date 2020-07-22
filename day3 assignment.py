@@ -3,6 +3,7 @@
 
 # In[1]:
 
+1.sum1 of n natural numbers using while loop
 
 num = int(input("enter a value of n:"))
 hold = num
@@ -17,7 +18,7 @@ else:
 
 
 # In[18]:
-
+2.find a number is prime number or not
 
 num = int(input("Enter a number"))
 if num>1:
