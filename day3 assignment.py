@@ -3,7 +3,7 @@
 
 # In[1]:
 
-1.sum1 of n natural numbers using while loop
+1.Sum of n natural numbers using While Loop
 
 num = int(input("enter a value of n:"))
 hold = num
