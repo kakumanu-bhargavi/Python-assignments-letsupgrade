@@ -1,0 +1,32 @@
+# Python-assignments-letsupgrade
+assignments
+Day 05.
+
+Assignment 05.
+
+Question 1:
+[0,1,2,10,4,1,0,56,2,0,1,3,0,56,0,4] sort increasing order but all zeros should be at right side..
+
+Order1=[0,1,2,10,4,1,0,56,2,0,1,3,0,56,0,4]
+Order1.sort()
+Order1.extend((0,0,0,0,0))
+del Order1[0:5]
+print(Order1)
+
+Output :
+[1,1,1,2,2,3,4,4,10,56,56,0,0,0,0,0]
+
+Question 2:
+List1=[10,20,40,60,70,80]
+List2=[5,15,25,35,45,60]
+ merge these two sorted list  produce one sorted list but use only one loop either while or for only one time.. 
+
+list1=[10,20,40,60,70,80]
+list2=[5,15,25,35,45,60]
+Output=list1+list2
+for each in range(5,81):
+     if each in Output:
+      print(each,end=",")
+
+Output :
+5,10,15,20,25,35,40,45,60,70,80,

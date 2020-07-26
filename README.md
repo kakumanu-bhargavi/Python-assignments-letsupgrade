@@ -1,2 +1,0 @@
-# Python-assignments-letsupgrade
-assignments
