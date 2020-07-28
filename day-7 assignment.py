@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
+assignment-1
 
 # In[13]:
 
@@ -8,6 +9,7 @@ port1={21:"FTP",22:"SSH",23:"telnet",80:"http"}
 port2=dict([(value,key)for key,value in port1.items()])
 print("port2=",port2)
 
+assignment-2
 
 # In[20]:
 
