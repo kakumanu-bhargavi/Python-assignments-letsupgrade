@@ -1,2 +1,0 @@
-# javascript-assignments-letsupgrade
-assignment
